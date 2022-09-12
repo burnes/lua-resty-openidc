@@ -18,6 +18,9 @@
   your server adds a prefix of rewrites URIs in a more complex way;
   see #453
 
+09/12/2022
+- PATCH: added support for registrations endpoint
+
 03/05/2022
 - improved error message when expecting a Bearer token header and the
   header doesn't contain a space character; see #421
@@ -253,7 +256,7 @@
 - added support for passing bearer token as cookie
 - added support introspection interval
 - added support for passing request cookies on introspection call
-- added passing introspection endpoint authorization method into openidc_call_token_endpoint call 
+- added passing introspection endpoint authorization method into openidc_call_token_endpoint call
 
 04/11/2018
 - bugfix rare case where OP public key is starting with 0x80 byte, and thus resulting in
