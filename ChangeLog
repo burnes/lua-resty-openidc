@@ -1,3 +1,6 @@
+09/14/2021
+- release 1.7.6
+
 09/12/2022
 - added support for registrations endpoint
 
@@ -236,7 +239,7 @@
 - added support for passing bearer token as cookie
 - added support introspection interval
 - added support for passing request cookies on introspection call
-- added passing introspection endpoint authorization method into openidc_call_token_endpoint call 
+- added passing introspection endpoint authorization method into openidc_call_token_endpoint call
 
 04/11/2018
 - bugfix rare case where OP public key is starting with 0x80 byte, and thus resulting in
