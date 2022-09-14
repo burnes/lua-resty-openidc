@@ -18,6 +18,9 @@
   your server adds a prefix of rewrites URIs in a more complex way;
   see #453
 
+09/14/2021
+- release 1.7.6
+
 09/12/2022
 - PATCH: added support for registrations endpoint
 
