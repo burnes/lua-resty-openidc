@@ -1,8 +1,8 @@
 package = "lua-resty-openidc"
-version = "1.7.5-1"
+version = "1.7.6-3"
 source = {
-    url = "git://github.com/zmartzone/lua-resty-openidc",
-    tag = "v1.7.5",
+    url = "git+https://github.com/zmartzone/lua-resty-openidc",
+    tag = "v1.7.6",
     dir = "lua-resty-openidc"
 }
 description = {
@@ -24,7 +24,7 @@ description = {
 dependencies = {
     "lua >= 5.1",
     "lua-resty-http >= 0.08",
-    "lua-resty-session >= 2.8",
+    "lua-resty-session >= 2.8, <= 3.10",
     "lua-resty-jwt >= 0.2.0"
 }
 build = {
